@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SingleScreenApp</string>
+
+    <string name="title">Nature Pet shop</string>
+    <string name="image_description">Pet Shop Image</string>
+    <string name="description">It\'s not a shop for you if your pet is just a pet. But if it\'s a beloved member of your family, don\'t you want to get best for it?</string>
+    <string name="address">27 Kapushanska St, Uzhhorod, Transcarpathian region, 88000</string>
+    <string name="schedule">Every day 09:00 &#8211; 19:00</string>
+    <string name="website">natureuzhhorod.ua</string>
+    <string name="phone">+380312220458</string>
+    <string name="email">natureuzhhorod@gmail.com</string>
+</resources>

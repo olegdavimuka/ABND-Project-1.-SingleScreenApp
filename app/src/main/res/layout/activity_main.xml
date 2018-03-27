@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="ua.com.zzz.davimuka.singlescreenapp.MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        tools:context="ua.com.zzz.davimuka.singlescreenapp.MainActivity">
+
+        <TextView style="@style/TitleTextView" />
+
+        <ImageView
+            style="@style/ImageTextView"
+            android:contentDescription="@string/image_description" />
+
+        <TextView style="@style/DescriptionTextView" />
+
+        <TextView
+            android:id="@+id/addressTextView"
+            style="@style/InfoTextView"
+            android:drawableStart="@drawable/address"
+            android:text="@string/address" />
+
+        <TextView
+            style="@style/InfoTextView"
+            android:drawableStart="@drawable/work_hours"
+            android:text="@string/schedule" />
+
+        <TextView
+            android:id="@+id/websiteTextView"
+            style="@style/InfoTextView"
+            android:drawableStart="@drawable/website"
+            android:text="@string/website" />
+
+        <TextView
+            android:id="@+id/phoneTextView"
+            style="@style/InfoTextView"
+            android:drawableStart="@drawable/phone"
+            android:text="@string/phone" />
+
+        <TextView
+            android:id="@+id/emailTextView"
+            style="@style/InfoTextView"
+            android:drawableStart="@drawable/email"
+            android:text="@string/email" />
+
+    </LinearLayout>
+</ScrollView>
